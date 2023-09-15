@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Residencies.css";
-import data from "../../utils/slider.json";
+import data from "../../utils/slider";
 
 const Residencies = () => {
   return (
@@ -19,7 +19,7 @@ const Residencies = () => {
             {data.map((card, i) => (
               <SwiperSlide key={i}>
                 <div className="r-card">
-                  <img src={card.image} alt="home" />
+                  <img src={card.image} alt="subs" />
 
                   <span className="secondaryText r-price">
                     <span>$</span>
