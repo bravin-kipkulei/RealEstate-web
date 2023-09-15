@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Jane Doe Blacklist",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "Nakuru Garden City Street, Kabs.Uni Gadung, Rafiki , DKI Nakuru",
     "image": "src/Assets/r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "John Garden Blacklist",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
     "image": "src/Assets/r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Bravin Puri Sarving",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
     "image": "src/Assets/r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Alex Vibes Jardin",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
     "image": "src/Assets/r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Israel City Garfrns",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
     "image": "src/Assets/r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Petter Puri Pan",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "Ruko Puri Indah Residence Block A7, Nakuru Street, Ciracas, Serang, Banten",
     "image": "src/Assets/r3.png"
   }
 ]
