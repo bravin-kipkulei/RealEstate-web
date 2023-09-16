@@ -1,38 +1,38 @@
 [
   {
-    "name": "Jane Doe Blacklist",
+    "name": "Nairobi Garden Residences",
     "price": "47,043",
-    "detail": "Nakuru Garden City Street, Kabs.Uni Gadung, Rafiki , DKI Nakuru",
+    "detail": "Thika Road, Roysambu, Nairobi, Kenya",
     "image": "src/Assets/r1.png"
   },
   {
-    "name": "John Garden Blacklist",
+    "name": "Kilimani Heights Apartments",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "Argwings Kodhek Road, Kilimani, Nairobi, Kenya",
     "image": "src/Assets/r2.png"
   },
   {
-    "name": "Bravin Puri Sarving",
+    "name": "Runda Luxury Villas",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "Limuru Road, Runda, Nairobi, Kenya",
     "image": "src/Assets/r3.png"
   },
   {
-    "name": "Alex Vibes Jardin",
+    "name": "Garden City Residences",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "Thika Road, Roysambu, Nairobi, Kenya",
     "image": "src/Assets/r1.png"
   },
   {
-    "name": "Israel City Garfrns",
+    "name": "Lavington Green Apartments",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "James Gichuru Road, Lavington, Nairobi, Kenya",
     "image": "src/Assets/r2.png"
   },
   {
-    "name": "Petter Puri Pan",
+    "name": "Kileleshwa Heights",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Nakuru Street, Ciracas, Serang, Banten",
+    "detail": "Gatundu Crescent, Kileleshwa, Nairobi, Kenya",
     "image": "src/Assets/r3.png"
   }
 ]
