@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Residencies.css";
 import data from "../../utils/slider";
+import { sliderSettings } from "../../utils/common";
 
 const Residencies = () => {
   return (
@@ -15,7 +16,8 @@ const Residencies = () => {
           </div>
 
           {/*the courosolls making */}
-          <Swiper>
+          <Swiper {...sliderSettings}
+            slidesPerView={3}>
             {data.map((card, i) => (
               <SwiperSlide key={i}>
                 <div className="flexColStart r-card">
