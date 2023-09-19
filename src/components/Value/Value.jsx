@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Value.css";
 import {
   Accordion,
@@ -38,10 +38,19 @@ const Value = () => {
             preExpanded={[0]}
           >
             {data.map((item, i) => {
+              const [className,setClassName] = useState(null)
               return (
-                <AccordionItem className="accordionItem" key={i} uuid={i}>
+                <AccordionItem className={`accordionItem $(className)`} key={i} uuid={i}>
                   <AccordionItemHeading>
-                    <AccordionItemButton>
+                    <AccordionItemButton className="flexCenter accordionBtn">
+                      <AccordionItemState>
+                        {({ expanded }) =>
+                          expanded
+                            ? setClassName("expanded")
+                            : setClassName("colupsed")
+                        }
+                      </AccordionItemState>
+
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
@@ -49,6 +58,9 @@ const Value = () => {
                       </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <div className="secondaryText">{item.detail}</div>
+                  </AccordionItemPanel>
                 </AccordionItem>
               );
             })}
