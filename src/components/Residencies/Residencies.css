@@ -46,3 +46,10 @@
 .swipper-horizontal{
     overflow: visible;
 }
+
+@media (max-width:640px){
+    .r-head{
+        align-items: center;
+    }
+    
+}
