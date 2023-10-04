@@ -2,13 +2,20 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "./Residencies.css";
+ 
+  //images
+import r1 from "../../Assets/r1.png"
+
+
+  //slider utils 
 import data from "../../utils/slider";
 import { sliderSettings } from "../../utils/common";
 import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 
+
+
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Autoplay]);
-
 const Residencies = () => {
   return (
     <div>
@@ -42,7 +49,7 @@ const Residencies = () => {
             {data.map((card, i) => (
               <SwiperSlide key={i}>
                 <div className="flexColStart r-card">
-                  <img src={card.image} alt="home" />
+                  <img src={r1} alt="home" />
 
                   <span className="secondaryText r-price">
                     <span style={{ color: "orange" }}>$</span>
