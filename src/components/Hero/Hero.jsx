@@ -4,6 +4,9 @@ import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import {motion} from "framer-motion";
 
+  //images 
+import heroImage from "../../Assets/hero-image.png"
+
 const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -79,7 +82,7 @@ const Hero = () => {
             type:"spring"
           }}
            className="image-container">
-            <img src="src/Assets/hero-image.png" alt="hero's image " />
+            <img src={heroImage} alt="hero's image " />
           </motion.div>
         </div>
       </div>
