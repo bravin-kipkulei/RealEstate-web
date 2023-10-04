@@ -4,6 +4,9 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 
+    //images
+import logo from "../../Assets/logo.png"
+
 const Header = () => {
   const [menuOPened, setMenuOpened] = useState(false);
 
@@ -15,7 +18,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
-        <img src="src/Assets/logo.png" alt="logo" width={100} />
+        <img src={logo} alt="logo" width={100} />
 
         <OutsideClickHandler
           onOutsideClick={()=>{
