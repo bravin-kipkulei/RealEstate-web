@@ -4,6 +4,9 @@ import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
 
+    //images
+import contact from "../../Assets/contact.jpg"
+
 const Contact = () => {
   return (
     <section className="c-wrapper">
@@ -87,7 +90,7 @@ const Contact = () => {
                         {/* Right side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="src/Assets/contact.jpg" alt="" />
+            <img src={contact} alt="" />
           </div>
         </div>
       </div>

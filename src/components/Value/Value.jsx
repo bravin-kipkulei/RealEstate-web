@@ -11,6 +11,9 @@ import {
 import data from "../../utils/accordion";
 import { MdOutlineArrowBack, MdOutlineArrowDropDown } from "react-icons/md";
 
+  //images
+import value from "../../Assets/value.png"
+
 const Value = () => {
   return (
     <section className="v-wrapper">
@@ -18,7 +21,7 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="src/Assets/value.png" alt="" />
+            <img src={value} alt="" />
           </div>
         </div>
         {/* right side  */}
